@@ -1,10 +1,10 @@
-# খাই চাটগাঁ (Khai Chattogram)
+# Khai Chattogram (খাই চাটগাঁ)
 
-চট্টগ্রামের ঐতিহ্যবাহী খাবার অর্ডার করার জন্য একটি ফুড অর্ডারিং ওয়েব অ্যাপ্লিকেশন। মেজবান, কালাভুনা, বিরিয়ানি থেকে শুরু করে তাজা সামুদ্রিক খাবার পর্যন্ত — চট্টগ্রামের সেরা রেস্টুরেন্টগুলোর জনপ্রিয় খাবার পৌঁছে দেওয়া হয় গ্রাহকের ঘরে।
+A food ordering web application for Chattogram's traditional cuisine. From Mezban and Kala Bhuna to Biryani and fresh seafood, it delivers popular dishes from the city's best restaurants straight to the customer's doorstep.
 
-[Next.js](https://nextjs.org/) দিয়ে বানানো এই প্রজেক্টে রয়েছে অনলাইন অর্ডারিং, টেবিল বুকিং, মেনু ব্রাউজিং এবং ইউজার অথেনটিকেশন।
+Built with [Next.js](https://nextjs.org/), the project includes online ordering, table reservations, menu browsing, and user authentication.
 
-## প্রযুক্তি স্ট্যাক
+## Tech Stack
 
 - **Frontend:** React, Next.js, Tailwind CSS, MUI
 - **State Management:** Redux Toolkit
@@ -12,33 +12,33 @@
 - **Forms & Validation:** Formik, Yup
 - **Database:** MongoDB / Mongoose
 
-## ফিচারসমূহ
+## Features
 
-- মেনু ক্যাটাগরি অনুযায়ী ব্রাউজিং (মেজবান, কালাভুনা, বিরিয়ানি, মাছ ও সামুদ্রিক খাবার, ইত্যাদি)
-- অনলাইন অর্ডার ও কার্ট সিস্টেম
-- টেবিল বুকিং / রিজার্ভেশন ফর্ম (ম্যাপ লোকেশনসহ)
-- ইউজার অথেনটিকেশন ও প্রোফাইল
-- রেসপনসিভ ডিজাইন
+- Menu browsing by category (Mezban, Kala Bhuna, Biryani, Fish & Seafood, etc.)
+- Online ordering with cart system
+- Table booking / reservation form with map location
+- User authentication and profiles
+- Responsive design
 
-## কীভাবে চালাবেন
+## Getting Started
 
-1. প্রজেক্ট ক্লোন করুন: `git clone <repo-url>`
-2. প্রয়োজনীয় প্যাকেজ ইনস্টল করুন: `npm install`
-3. ডেভেলপমেন্ট সার্ভার চালু করুন: `npm run dev`
-4. ব্রাউজারে দেখুন: `http://localhost:3000`
+1. Clone the project: `git clone <repo-url>`
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
+4. Open in your browser: `http://localhost:3000`
 
-## স্ক্রিনশট
+## Screenshots
 
-### হোমপেজ
+### Homepage
 ![Homepage](docs/screenshots/home.png)
 
-### মেনু
+### Menu
 ![Menu](docs/screenshots/menu.png)
 
-### আমাদের সম্পর্কে
+### About
 ![About](docs/screenshots/about.png)
 
-### টেবিল বুকিং
+### Reservation
 ![Reservation](docs/screenshots/reservation.png)
 
 ---
