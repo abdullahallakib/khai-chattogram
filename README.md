@@ -1,63 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# খাই চাটগাঁ (Khai Chattogram)
 
-# Food Ordering Project
+চট্টগ্রামের ঐতিহ্যবাহী খাবার অর্ডার করার জন্য একটি ফুড অর্ডারিং ওয়েব অ্যাপ্লিকেশন। মেজবান, কালাভুনা, বিরিয়ানি থেকে শুরু করে তাজা সামুদ্রিক খাবার পর্যন্ত — চট্টগ্রামের সেরা রেস্টুরেন্টগুলোর জনপ্রিয় খাবার পৌঁছে দেওয়া হয় গ্রাহকের ঘরে।
 
-![image](https://github.com/eminkmru/food-ordering-with-NextJS/assets/89755021/272ac072-0702-4c83-9a79-a09a2eb43b4c)
+[Next.js](https://nextjs.org/) দিয়ে বানানো এই প্রজেক্টে রয়েছে অনলাইন অর্ডারিং, টেবিল বুকিং, মেনু ব্রাউজিং এবং ইউজার অথেনটিকেশন।
 
+## প্রযুক্তি স্ট্যাক
 
-Hello,
+- **Frontend:** React, Next.js, Tailwind CSS, MUI
+- **State Management:** Redux Toolkit
+- **Authentication:** NextAuth
+- **Forms & Validation:** Formik, Yup
+- **Database:** MongoDB / Mongoose
 
-I worked on the Food Ordering Project, which is a comprehensive web application developed using various technologies.
+## ফিচারসমূহ
 
-## Project Content and Features
+- মেনু ক্যাটাগরি অনুযায়ী ব্রাউজিং (মেজবান, কালাভুনা, বিরিয়ানি, মাছ ও সামুদ্রিক খাবার, ইত্যাদি)
+- অনলাইন অর্ডার ও কার্ট সিস্টেম
+- টেবিল বুকিং / রিজার্ভেশন ফর্ম (ম্যাপ লোকেশনসহ)
+- ইউজার অথেনটিকেশন ও প্রোফাইল
+- রেসপনসিভ ডিজাইন
 
-- Developed with the concept of Single Page Application.
-- Created the Front-End infrastructure using React and Next.js technologies.
-- Implemented responsive transitions with Tailwind CSS.
-- Optimized state management using Redux-Toolkit.
-- Simplified user authentication using Next-Auth.
-- Handled form controls and data validation with Formik and Yup.
-- Utilized MongoDB for database operations.
-- Added an Admin Management Panel and implemented user profiles.
+## কীভাবে চালাবেন
 
-## Extra Features Developed by Me
+1. প্রজেক্ট ক্লোন করুন: `git clone <repo-url>`
+2. প্রয়োজনীয় প্যাকেজ ইনস্টল করুন: `npm install`
+3. ডেভেলপমেন্ট সার্ভার চালু করুন: `npm run dev`
+4. ব্রাউজারে দেখুন: `http://localhost:3000`
 
-In addition to the core features taught by the course instructors, I added some extra features to enrich the project:
+## স্ক্রিনশট
 
-- Enhanced state management with Redux-Toolkit to optimize data flow between different components.
-- Implemented a user-friendly error handling mechanism to provide better guidance in case of possible errors.
-- Improved database queries for more efficient data processing with MongoDB.
-- Implemented the "Order Customization" feature, allowing users to personalize their orders.
+### হোমপেজ
+![Homepage](docs/screenshots/home.png)
 
-## How to Use?
+### মেনু
+![Menu](docs/screenshots/menu.png)
 
-1. Clone the project: `git clone https://github.com/your_username/food-ordering-project.git`
-2. Install the necessary dependencies: `npm install`
-3. Start the project: `npm run dev`
-4. View the project in your browser at `http://localhost:3000`.
+### আমাদের সম্পর্কে
+![About](docs/screenshots/about.png)
 
-## Project Screenshot
+### টেবিল বুকিং
+![Reservation](docs/screenshots/reservation.png)
 
-![image](https://github.com/eminkmru/food-ordering-with-NextJS/assets/89755021/f0e0ed7a-ead1-4070-abb9-f72bb2e5e7f9)
+---
 
-![image](https://github.com/eminkmru/food-ordering-with-NextJS/assets/89755021/26da9d2a-53da-4689-a56f-be224b682bc1)
-
-![image](https://github.com/eminkmru/food-ordering-with-NextJS/assets/89755021/2a57c58c-ee7a-4bac-aedd-cc1e45ecf071)
-
-![image](https://github.com/eminkmru/food-ordering-with-NextJS/assets/89755021/8fef5351-16cc-44fb-8f83-307575aecfd8)
-
-![image](https://github.com/eminkmru/food-ordering-with-NextJS/assets/89755021/42f3646f-6b5f-472d-90b1-42937fd102cf)
-
-![image](https://github.com/eminkmru/food-ordering-with-NextJS/assets/89755021/35bb7f17-4e1f-474c-9e4c-c00e98529b22)
-
-![image](https://github.com/eminkmru/food-ordering-with-NextJS/assets/89755021/cbdcc75b-bfce-4d91-aea2-fd66abe41c5d)
-
-![image](https://github.com/eminkmru/food-ordering-with-NextJS/assets/89755021/5f884bea-0035-4da0-925f-acb4ca5b6610)
-
-
-## Acknowledgments
-
-To explore the project and learn more, visit the GitHub page: [GitHub Project Page](https://github.com/your_username/food-ordering-project)
-
-Best regards,
-Emin Kumru
+Developed by MD Abdullah
